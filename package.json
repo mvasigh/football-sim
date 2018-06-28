@@ -1,0 +1,12 @@
+{
+  "name": "football-sim",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Mehdi Vasigh",
+  "license": "ISC",
+  "dependencies": {
+    "random": "^2.0.12"
+  }
+}
