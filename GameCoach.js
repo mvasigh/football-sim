@@ -1,11 +1,5 @@
 class GameCoach {
   callPlay(down, toGain, distance, time) {
-    // console.log(`
-    //   Down: ${down}
-    //   To gain: ${toGain}
-    //   Distance: ${distance}
-    //   Time: ${time}
-    // `);
     if (down === 4) {
       return distance > 35 ? 'punt' : 'kick';
     } else {

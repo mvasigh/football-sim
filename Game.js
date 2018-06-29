@@ -1,14 +1,8 @@
-const GameCoach = require('./GameCoach');
 // Needs to:
 //  - Create new game with teams A and B
 //  - Keep track of Game state: quarter, clock, score, if ended
 //  - nextPlay(): run the next play
 //  - calculate play yardage using binomial distribution
-
-const down = 4,
-  toGain = 9,
-  distance = 34,
-  time = 900;
 
 class Game {
   constructor(homeTm, awayTm, options) {
@@ -29,6 +23,3 @@ class Game {
     };
   }
 }
-
-const coach = new GameCoach();
-console.log(coach.callPlay(down, toGain, distance, time));
